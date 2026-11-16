@@ -1,0 +1,42 @@
+.h{
+    color: #0000;
+    padding: 50px;
+    font-size: 20px;
+}
+
+p{
+   color:  #96A5B1;
+   padding: 10px;
+   
+}
+.container {
+    display: flex;
+    width: 100%;
+
+  
+}
+
+.facebook{
+    color:white; 
+    background-color:#255A9B;
+
+}
+.linkedin{
+    color:white;
+    background-color: #0076B6;
+   
+
+}
+.input{
+    display: flex;
+    wirdth: 100%;
+    margin: 20px;
+    borrder-radius: 5px;
+}
+
+.inputs input{ 
+   felx: 1;
+   min-width: 0;
+   padding: 10px;
+   borrder-radius: 5px;
+}
