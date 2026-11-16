@@ -2,11 +2,16 @@
     color: #0000;
     padding: 50px;
     font-size: 20px;
+    
+}
+.right {
+    padding: 100px 80px;
 }
 
 p{
    color:  #96A5B1;
    padding: 10px;
+  
    
 }
 .container {
@@ -19,19 +24,24 @@ p{
 .facebook{
     color:white; 
     background-color:#255A9B;
-
-}
+    margin-right: 20px;
+    
 .linkedin{
     color:white;
     background-color: #0076B6;
-   
-
+    
 }
+
+
+
+
+
 .input{
     display: flex;
     wirdth: 100%;
     margin: 20px;
     borrder-radius: 5px;
+   
 }
 
 .inputs input{ 
@@ -39,4 +49,21 @@ p{
    min-width: 0;
    padding: 10px;
    borrder-radius: 5px;
+  
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 45px 0;
+    color: #555;
+    font-size: 10px;
+}
+
+.separator span {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
 }
