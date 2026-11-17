@@ -1,69 +1,134 @@
-.h{
-    color: #0000;
-    padding: 50px;
-    font-size: 20px;
-    
+.left {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 140px;
+}
+
+
+
+h2{
+    color: #000000;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    font-weight: 300;
 }
 .right {
     padding: 100px 80px;
 }
 
 p{
-   color:  #96A5B1;
+   color:  #7B8A92 ;
    padding: 10px;
-  
-   
 }
+
 .container {
     display: flex;
     width: 100%;
-
-  
 }
+
 
 .facebook{
     color:white; 
     background-color:#255A9B;
-    margin-right: 20px;
+    font-style: normal;
+    padding: 5px 30px;
+
+}
     
 .linkedin{
     color:white;
     background-color: #0076B6;
-    
+    font-style: normal;
+    padding: 5px 30px;
+   
 }
-
-
-
-
 
 .input{
     display: flex;
-    wirdth: 100%;
+    width: 100%;
     margin: 20px;
-    borrder-radius: 5px;
+    border-radius: 5px;
+    gap: 20px;
    
 }
 
 .inputs input{ 
-   felx: 1;
-   min-width: 0;
+   flex: 1;
    padding: 10px;
-   borrder-radius: 5px;
-  
+   border-radius: 5px;
+   gap: 20px;
 }
 
-.separator {
+
+h3{
+      color: #000000;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.business{
+  display: flex;
+  flex-direction: row;
+    gap: 30px;
+    margin: 20px 0;
+    font-family: arial, sans-serif;
+    flex-direction: row;
+    
+}
+.text {
+    font-size: 13px;
+    color: #AFAFAF;
+    background-color: #f4f4f4;
+    font-family: arial, sans-serif;
+    padding: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+   
+
+ .line {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin: 45px 0;
-    color: #555;
+    gap: 15px;
+    margin: 45px 10px;
+    color: #000000;
     font-size: 10px;
 }
 
-.separator span {
+.line span {
     flex: 1;
     height: 1px;
-    background-color: #ddd;
+    background-color: #c0baba;
+    
+}
+.link {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.create-account {
+    display: flex;
+    background-color: #3698FB;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 10px;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-top: 50px;
 }
