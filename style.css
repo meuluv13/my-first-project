@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('./Barlow-4/Barlow-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'Barlow', sans-serif;
+}
 .left {
     position: relative;
 }
@@ -20,7 +27,7 @@
 h2{
     color: #000000;
     font-size: 30px;
-    font-family: arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 300;
 }
 .right {
@@ -73,7 +80,7 @@ p{
 
 h3{
       color: #000000;
-    font-family: arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-size: 20px;
     font-weight: 300;
 
@@ -83,7 +90,7 @@ h3{
   flex-direction: row;
     gap: 30px;
     margin: 20px 0;
-    font-family: arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     flex-direction: row;
     
 }
@@ -91,7 +98,7 @@ h3{
     font-size: 13px;
     color: #AFAFAF;
     background-color: #f4f4f4;
-    font-family: arial, sans-serif;
+    font-family: 'Barlow', sans-serif;
     padding: 13px;
     line-height: 1.5;
     border-radius: 3px;
