@@ -5,9 +5,12 @@
 body {
     font-family: 'Barlow', sans-serif;
 }
+
 .left {
     position: relative;
+    width: 50%;
 }
+
 
 .background {
     width: 100%;
@@ -67,11 +70,11 @@ p{
 }
 
 .regist{
-    width: 370px;
-    height: 85px;
+    width: 220px;
+    height: 65px;
     border: 1px solid #e5e5e5;
-    border-radius: 3px;
-    padding: 10px 15px;
+    border-radius: 1px;
+    padding: 10px 10px;
     box-sizing: border-box;
 
     display: flex;
@@ -101,6 +104,7 @@ h3{
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     font-weight: 300;
+   
 
 }
 .business{
