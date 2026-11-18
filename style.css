@@ -90,11 +90,10 @@ p{
 
 .regist input {
     border: none;
-    outline: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     color: #333;
-    background: transparent;
+  
 }
 
 h3{
